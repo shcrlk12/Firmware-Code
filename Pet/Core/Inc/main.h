@@ -69,6 +69,11 @@ void Error_Handler(void);
 #define HSE_IN_GPIO_Port GPIOD
 #define HSE_OUT_Pin GPIO_PIN_1
 #define HSE_OUT_GPIO_Port GPIOD
+#define AI_FEED_TIME_Pin GPIO_PIN_0
+#define AI_FEED_TIME_GPIO_Port GPIOA
+#define DI_ONE_TIME_FEED_Pin GPIO_PIN_10
+#define DI_ONE_TIME_FEED_GPIO_Port GPIOB
+#define DI_ONE_TIME_FEED_EXTI_IRQn EXTI15_10_IRQn
 #define PWM_MOTOR_SPEED_Pin GPIO_PIN_11
 #define PWM_MOTOR_SPEED_GPIO_Port GPIOA
 

@@ -5,3 +5,4 @@ configDescList=org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HVPS-Control-UI,
 eclipse.preferences.version=1
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HVPS-Control-UI/activeLaunchMode=run
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HVPS-Control-UI/activeLaunchTarget=null\:---
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Pet\ Debug/activeLaunchMode=debug
