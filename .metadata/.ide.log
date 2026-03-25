@@ -1911,3 +1911,1026 @@ java.lang.NullPointerException: Cannot invoke "javax.swing.JTextField.getText()"
 2026-03-25 11:00:12,865 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 683mS.
 2026-03-25 11:00:12,866 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 1mS.
 2026-03-25 11:00:12,868 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2026-03-25 15:02:36,246 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-03-25 15:02:36,309 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-03-25 15:02:36,358 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-03-25 15:05:42,253 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 941859448 Bytes (1073741824)
+2026-03-25 15:05:43,795 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 965976696 Bytes (1073741824)
+2026-03-25 15:05:45,223 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 761719128 Bytes (1073741824)
+2026-03-25 15:05:45,646 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RTC
+2026-03-25 15:05:45,646 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2026-03-25 15:05:45,646 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: TIM1_8F1
+2026-03-25 15:05:45,646 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2026-03-25 15:05:45,646 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2026-03-25 15:05:45,646 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: ADC
+2026-03-25 15:05:45,646 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2026-03-25 15:05:45,649 [INFO] CodeGenerator:882 - code generatio: config db path: C:\ST\STM32CubeIDE_1.18.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.0.202502271554\\db\
+2026-03-25 15:05:45,760 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\license.tmp_save
+2026-03-25 15:05:45,962 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\license.tmp
+2026-03-25 15:05:45,999 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\gpio.tmp_save
+2026-03-25 15:05:46,127 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\gpio.tmp
+2026-03-25 15:05:46,298 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Src\stm32f1xx_it.c_save
+2026-03-25 15:05:46,511 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Src\stm32f1xx_it.c
+2026-03-25 15:05:46,528 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Inc\stm32f1xx_it.h_save
+2026-03-25 15:05:46,588 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Inc\stm32f1xx_it.h
+2026-03-25 15:05:46,645 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Src\stm32f1xx_hal_msp.c_save
+2026-03-25 15:05:46,789 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Src\stm32f1xx_hal_msp.c
+2026-03-25 15:05:46,810 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\system.tmp_save
+2026-03-25 15:05:46,863 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\system.tmp
+2026-03-25 15:05:46,894 [INFO] CodeEngine:319 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Inc\stm32f1xx_hal_conf.h_save
+2026-03-25 15:05:46,989 [INFO] CodeEngine:343 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Inc\stm32f1xx_hal_conf.h
+2026-03-25 15:05:47,025 [INFO] ApiDbMcu:508 - Load IP Config File for ADC1
+2026-03-25 15:05:47,026 [WARN] IPConfigManager:3747 - IP not found : TIM
+2026-03-25 15:05:47,027 [WARN] CodeGenerator:4198 - IP not found : null
+2026-03-25 15:05:47,054 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Inc\main.h_save
+2026-03-25 15:05:47,157 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Inc\main.h
+2026-03-25 15:05:47,195 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Src\main.c_save
+2026-03-25 15:05:47,302 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Src\main.c
+2026-03-25 15:05:47,834 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 399mS.
+2026-03-25 15:05:47,839 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0-B36
+2026-03-25 15:05:47,932 [INFO] ConfigFileManager:1590 - The Die is : DIE410
+2026-03-25 15:05:49,145 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 1306mS.
+2026-03-25 15:05:49,146 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 1mS.
+2026-03-25 15:05:49,150 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2026-03-25 15:24:27,256 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:24:27,327 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:24:27,327 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:24:27,328 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:24:27,328 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:24:27,328 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:24:27,329 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:24:27,329 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:24:27,329 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:24:27,329 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:24:27,330 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:24:27,343 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:24:37,603 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,452x278,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-03-25 15:24:54,244 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:24:54,245 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:24:54,245 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:24:54,245 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:24:54,245 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:24:54,245 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:24:54,245 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:24:54,245 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:24:54,245 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:24:54,245 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:24:54,254 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:32:17,133 [INFO] MainUpdater:2872 - connection check result : 10
+2026-03-25 15:32:17,133 [INFO] MainUpdater:2872 - connection check result : 10
+2026-03-25 15:32:17,200 [INFO] MicroXplorer:468 - Change Database Path : 
+2026-03-25 15:32:17,200 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.140
+2026-03-25 15:32:17,228 [ERROR] ProjectManagerView:394 - 
+java.lang.NullPointerException: Cannot invoke "javax.swing.JTextField.getText()" because the return value of "java.util.List.get(int)" is null
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab$9.caretUpdate(ProjectChoiceTab.java:2678) ~[filemanager.jar:?]
+	at javax.swing.text.JTextComponent.fireCaretUpdate(JTextComponent.java:408) ~[?:?]
+	at javax.swing.text.JTextComponent$MutableCaretEvent.fire(JTextComponent.java:4484) ~[?:?]
+	at javax.swing.text.JTextComponent$MutableCaretEvent.stateChanged(JTextComponent.java:4506) ~[?:?]
+	at javax.swing.text.DefaultCaret.fireStateChanged(DefaultCaret.java:857) ~[?:?]
+	at javax.swing.text.DefaultCaret.changeCaretPosition(DefaultCaret.java:1343) ~[?:?]
+	at javax.swing.text.DefaultCaret.handleSetDot(DefaultCaret.java:1242) ~[?:?]
+	at javax.swing.text.DefaultCaret.setDot(DefaultCaret.java:1223) ~[?:?]
+	at javax.swing.text.DefaultCaret$Handler.insertUpdate(DefaultCaret.java:1819) ~[?:?]
+	at javax.swing.text.AbstractDocument.fireInsertUpdate(AbstractDocument.java:227) ~[?:?]
+	at javax.swing.text.AbstractDocument.handleInsertString(AbstractDocument.java:781) ~[?:?]
+	at javax.swing.text.AbstractDocument.insertString(AbstractDocument.java:740) ~[?:?]
+	at javax.swing.text.PlainDocument.insertString(PlainDocument.java:131) ~[?:?]
+	at javax.swing.text.AbstractDocument.replace(AbstractDocument.java:699) ~[?:?]
+	at javax.swing.text.JTextComponent.setText(JTextComponent.java:1725) ~[?:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.createHeapStackFields(ProjectChoiceTab.java:979) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.buildLinkSettingsPanel(ProjectChoiceTab.java:3766) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.defineWindowsFields(ProjectChoiceTab.java:1962) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectChoiceTab.updateSettings(ProjectChoiceTab.java:555) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.gui.ProjectSettingsPanel.UpdateDialog(ProjectSettingsPanel.java:245) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.projectmanager.ProjectManagerView.propertyChange(ProjectManagerView.java:391) ~[filemanager.jar:?]
+	at java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:343) ~[?:?]
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:335) ~[?:?]
+	at java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:268) ~[?:?]
+	at com.st.microxplorer.util.MXPropertyChangeSupport.firePropertyChange(MXPropertyChangeSupport.java:54) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.mxsystem.MxSystem.closeConfig(MxSystem.java:899) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.maingui.MainPanel.closeConfig(MainPanel.java:789) ~[STM32CubeMX.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.OpenFileManager.loadConfigurationFile(OpenFileManager.java:287) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.MainFileManager.userLoadConfig(MainFileManager.java:341) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.engine.MainFileManager.userLoadConfig(MainFileManager.java:319) ~[filemanager.jar:?]
+	at com.st.microxplorer.plugins.filemanager.FileManagerView.getSpecificTask(FileManagerView.java:246) ~[filemanager.jar:?]
+	at com.st.stm32cube.common.mx.editor.CubeMxEditor.getMxTabbedPaneInstance(CubeMxEditor.java:1198) ~[com.st.stm32cube.common.mx_6.14.0.202502271554/:?]
+	at com.st.stm32cube.common.mx.editor.CubeMxEditor$12$1.createSwingComponent(CubeMxEditor.java:1068) ~[com.st.stm32cube.common.mx_6.14.0.202502271554/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.EmbeddedSwingComposite.doComponentCreation(EmbeddedSwingComposite.java:492) ~[com.st.stm32cube.common.mx.oss_6.14.0.202502271554/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.EmbeddedSwingComposite$4.run(EmbeddedSwingComposite.java:291) ~[com.st.stm32cube.common.mx.oss_6.14.0.202502271554/:?]
+	at com.st.stm32cube.common.mx.oss.core.awtswtbridge.AwtEnvironment$2.run(AwtEnvironment.java:166) ~[com.st.stm32cube.common.mx.oss_6.14.0.202502271554/:?]
+	at java.awt.event.InvocationEvent.dispatch(InvocationEvent.java:318) ~[?:?]
+	at java.awt.EventQueue.dispatchEventImpl(EventQueue.java:773) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:720) ~[?:?]
+	at java.awt.EventQueue$4.run(EventQueue.java:714) ~[?:?]
+	at java.security.AccessController.doPrivileged(AccessController.java:400) ~[?:?]
+	at java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87) ~[?:?]
+	at java.awt.EventQueue.dispatchEvent(EventQueue.java:742) ~[?:?]
+	at java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109) ~[?:?]
+	at java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101) ~[?:?]
+	at java.awt.EventDispatchThread.run(EventDispatchThread.java:90) ~[?:?]
+2026-03-25 15:32:17,231 [WARN] ThirdParty:871 - waiting for thirdparty lock release [close project]
+2026-03-25 15:32:17,231 [INFO] ThirdParty:873 - entering critical section [close project]
+2026-03-25 15:32:17,231 [INFO] ThirdParty:883 - exiting critical section [close project]
+2026-03-25 15:32:17,233 [INFO] PinOutPanel:1589 - setPackage(No Configuration,No Configuration)
+2026-03-25 15:32:17,240 [INFO] UtilMem:75 - Begin LoadConfig() Used Memory: 748981424 Bytes (1073741824)
+2026-03-25 15:32:17,241 [INFO] MicroXplorer:468 - Change Database Path : 
+2026-03-25 15:32:17,242 [INFO] MicroXplorer:498 - Change Database Version : DB.6.0.140
+2026-03-25 15:32:17,242 [INFO] OpenFileManager:354 - Change cursor
+2026-03-25 15:32:17,275 [INFO] RulesReader:64 - Compatibility file has been processed (301 Rules)
+2026-03-25 15:32:17,282 [INFO] Mcu:2011 - Initializing MCU STM32F103C(8-B)Tx STM32F103C8Tx STM32F103C8T6
+2026-03-25 15:32:17,975 [INFO] Context:756 - Trying to add GPIOservice into a context  which must be forbidden
+2026-03-25 15:32:18,142 [INFO] ImportTextPane:218 - (OptionalMessage_ERROR) Pin12 (VP_RIF_VS_RIF1) cannot be retrieved for this MCU
+2026-03-25 15:32:18,162 [INFO] RtosManager:558 - Registered RTOS mode: class=CMSIS, group=RTOS, mode=CMSIS_V1, owner=FREERTOS
+2026-03-25 15:32:18,162 [INFO] RtosManager:558 - Registered RTOS mode: class=CMSIS, group=RTOS2, mode=CMSIS_V2, owner=FREERTOS
+2026-03-25 15:32:18,162 [INFO] RtosManager:558 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V1, owner=FREERTOS
+2026-03-25 15:32:18,162 [INFO] RtosManager:558 - Registered RTOS mode: class=RTOS, group=Core, mode=CMSIS_V2, owner=FREERTOS
+2026-03-25 15:32:18,162 [WARN] ModelIntegratedComponent:184 - Missing modes for component STMicroelectronics:FreeRTOS:0.0.1:STMicroelectronics:RTOS:FreeRTOS:Core:::10.2.0:
+2026-03-25 15:32:18,176 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-03-25 15:32:18,176 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-03-25 15:32:18,176 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-03-25 15:32:18,176 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-03-25 15:32:18,176 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-03-25 15:32:18,176 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-03-25 15:32:18,176 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-03-25 15:32:18,176 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-03-25 15:32:18,176 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-03-25 15:32:18,177 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-03-25 15:32:18,177 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-03-25 15:32:18,177 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-03-25 15:32:18,177 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-03-25 15:32:18,177 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-03-25 15:32:18,177 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-03-25 15:32:18,177 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-03-25 15:32:18,177 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-03-25 15:32:18,177 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-03-25 15:32:18,177 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-03-25 15:32:18,177 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-03-25 15:32:18,177 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-03-25 15:32:18,177 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-03-25 15:32:18,177 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-03-25 15:32:18,177 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-03-25 15:32:18,178 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-03-25 15:32:18,178 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-03-25 15:32:18,178 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-03-25 15:32:18,178 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-03-25 15:32:18,178 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-03-25 15:32:18,178 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-03-25 15:32:18,178 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-03-25 15:32:18,178 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-03-25 15:32:18,178 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-03-25 15:32:18,178 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-03-25 15:32:18,178 [WARN] ModelIntegratedComponent:63 - No mode defined for component null
+2026-03-25 15:32:18,178 [WARN] ModelPack:524 - Component already loaded: STMicroelectronics:HAL Drivers:0.0.0:STMicroelectronics:Device:STMicro_Driver:XSPI:HAL::0.0.1:HAL_XSPI
+2026-03-25 15:32:18,329 [INFO] ThirdPartyModel:298 - Start build external matchings
+2026-03-25 15:32:19,017 [INFO] ThirdPartyModel:316 - End build external matchings
+2026-03-25 15:32:19,036 [INFO] ImportTextPane:218 - (OptionalMessage_ERROR) IP (RCC) : Invalid parameter (FamilyName)
+2026-03-25 15:32:19,038 [INFO] ImportTextPane:218 - (OptionalMessage_ERROR) IP (RCC) : Parameter (USBFreq_Value) has invalid value (16000000)
+2026-03-25 15:32:19,222 [INFO] UtilMem:75 - End LoadConfig() Used Memory: 741181024 Bytes (1073741824)
+2026-03-25 15:32:19,270 [WARN] ThirdParty:833 - waiting for thirdparty lock release [change project]
+2026-03-25 15:32:19,271 [INFO] ThirdParty:835 - entering critical section [change project]
+2026-03-25 15:32:19,271 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.5.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-PM33A1 1.0.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USBPD 4.1
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 2.0.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENVWB1 1.4.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F4 1.1.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics LIBJPEG 8.0.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Avnet-IotConnect X-CUBE-IoTC-DA16k-PMOD 1.0.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SMBUS 2.1.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-WB05N 1.1.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ISPU 2.1.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ST60 1.0.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC12 1.0.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-F7 1.1.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L5 2.0.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 2.0.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC6 3.1.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FreeRTOS 0.0.1
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Infineon AIROC-Wi-Fi-Bluetooth-STM32 1.7.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.3.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.4.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-DISPLAY 3.0.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC10 1.0.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 4.0.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.3.1
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics HAL Drivers 0.0.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ST60 1.1.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :emotas I-CUBE-CANOPEN 1.3.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-FREERTOS 1.3.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 1.0.1
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.14.1
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 7.1.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.26.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.26.1
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :quantropi X-CUBE-qispace-sdk-base 2.0.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 10.0.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-STAIOTCFT 1.0.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-SMARTAG2 1.2.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 11.1.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WL 2.0.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-MOTENV1 5.0.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 1.0.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7RS 1.2.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-L4 2.0.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 0.0.2
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :WES I-CUBE-Cesium 1.3.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.1.2
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SFXS2LP1 4.0.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLE2 3.3.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Avnet-IOTCONNECT X-CUBE-iotc-st67-sdk 1.0.0
+2026-03-25 15:32:19,272 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.2.0
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7 3.3.0
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC9 1.0.0
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_DEVICE 3.0.0
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 5.2.0
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-BLEMGR 4.1.0
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-WB 2.0.0
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-GNSS1 7.0.1
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOUCHGFX 4.25.0
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 10.1.0
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-SNS-STBOX1 2.0.0
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 12.0.0
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-STSE01 2.0.0
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G0 1.1.0
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SAFEA1 1.2.2
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC4 3.0.0
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-SUBG2 5.0.0
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-H7RS 1.1.0
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics STM32_WPAN 1.0.0
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :EmbeddedOffice I-CUBE-FS-RTOS 1.0.1
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics lwIP 2.0.3
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :Cesanta I-CUBE-Mongoose 7.13.0
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics USB_HOST 1.0.0
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AZRTOS-G4 2.0.0
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-WB05N 2.0.0
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics PDM2PCM 3.1.0
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfTPM 3.8.0
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :wolfSSL I-CUBE-wolfSSH 1.4.20
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC7 2.0.0
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TCPP 4.2.0
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :RealThread X-CUBE-RT-Thread_Nano 4.1.1
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics FP-ATR-SIGFOX1 3.2.0
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-EEPRMA1 5.1.0
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics MBEDTLS 2.16.2
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-IPS 3.1.0
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALS 1.0.2
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :ITTIA_DB I-CUBE-ITTIADB 8.9.0
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-STSE01 1.0.0
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :portGmbH I-Cube-SoM-uGOAL 1.1.0
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-NFC6 3.2.0
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ST67W61 1.0.0
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-AI 10.2.0
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics ThreadX 1.0.0
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :SEGGER I-CUBE-embOS 1.3.1
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-ALGOBUILD 1.4.0
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-MEMS1 11.3.0
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.4.2
+2026-03-25 15:32:19,274 [INFO] ThirdParty:1030 - CMSIS Pack Vendor :STMicroelectronics X-CUBE-TOF1 3.4.3
+2026-03-25 15:32:19,274 [INFO] ThirdParty:841 - exiting critical section [change project]
+2026-03-25 15:32:19,367 [INFO] PinOutPanel:1589 - setPackage(No Configuration,No Configuration)
+2026-03-25 15:32:19,369 [INFO] PinOutPanel:1589 - setPackage(STM32F103C8Tx,LQFP48)
+2026-03-25 15:32:19,622 [INFO] UtilMem:75 - Before build in PCC Used Memory: 867093968 Bytes (1073741824)
+2026-03-25 15:32:19,834 [INFO] UtilMem:75 - After build in PCC Used Memory: 910085488 Bytes (1073741824)
+2026-03-25 15:32:19,845 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-03-25 15:32:19,845 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-03-25 15:32:19,845 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-03-25 15:32:19,845 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-03-25 15:32:19,845 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-03-25 15:32:19,845 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-03-25 15:32:19,845 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-03-25 15:32:19,845 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-03-25 15:32:19,845 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-03-25 15:32:19,845 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-03-25 15:32:19,845 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-03-25 15:32:19,845 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-03-25 15:32:19,845 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-03-25 15:32:19,845 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-03-25 15:32:19,845 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-03-25 15:32:19,846 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-03-25 15:32:19,846 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-03-25 15:32:19,846 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-03-25 15:32:19,846 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-03-25 15:32:19,846 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-03-25 15:32:19,846 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-03-25 15:32:19,846 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-03-25 15:32:19,846 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-03-25 15:32:19,846 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-03-25 15:32:19,846 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-03-25 15:32:19,847 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-03-25 15:32:19,847 [INFO] IPUIPlugin:80 - create IPUIPlugin
+2026-03-25 15:32:19,890 [INFO] CADModel:165 - CPN selected for project levelSTM32F103C8T6
+2026-03-25 15:32:19,890 [INFO] CADModel:114 - Register for checkConnection events
+2026-03-25 15:32:19,948 [INFO] OpenFileManager:385 - Restore cursor
+2026-03-25 15:32:38,792 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:32:38,805 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:32:38,805 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:32:38,806 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:32:38,806 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:32:38,806 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:32:38,806 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:32:38,806 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:32:38,806 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:32:38,806 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:32:38,806 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:32:38,808 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:32:51,996 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:32:54,427 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:39:32,605 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-03-25 15:39:32,660 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:39:32,664 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:39:32,665 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:39:32,665 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:39:32,665 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:39:32,665 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:39:32,665 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:39:32,665 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:39:32,665 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:39:32,665 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:39:32,673 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:40:47,344 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-03-25 15:40:47,380 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:40:47,383 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:40:47,383 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:40:47,383 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:40:47,384 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:40:47,384 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:40:47,384 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:40:47,384 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:40:47,384 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:40:47,384 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:40:47,390 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:40:49,820 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-03-25 15:40:49,848 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:40:49,849 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:40:49,849 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:40:49,849 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:40:49,849 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:40:49,849 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:40:49,849 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:40:49,849 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:40:49,849 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:40:49,849 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:40:49,852 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:41:16,718 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-03-25 15:41:33,860 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-03-25 15:41:38,398 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-03-25 15:41:43,691 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 756758720 Bytes (1073741824)
+2026-03-25 15:41:44,649 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 778778816 Bytes (1073741824)
+2026-03-25 15:41:47,158 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 948125888 Bytes (1073741824)
+2026-03-25 15:41:47,471 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RTC
+2026-03-25 15:41:47,471 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2026-03-25 15:41:47,471 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: DMA
+2026-03-25 15:41:47,471 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: TIM1_8F1
+2026-03-25 15:41:47,471 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2026-03-25 15:41:47,471 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2026-03-25 15:41:47,471 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: ADC
+2026-03-25 15:41:47,471 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2026-03-25 15:41:47,473 [INFO] CodeGenerator:882 - code generatio: config db path: C:\ST\STM32CubeIDE_1.18.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.0.202502271554\\db\
+2026-03-25 15:41:47,543 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\license.tmp_save
+2026-03-25 15:41:47,784 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\license.tmp
+2026-03-25 15:41:47,840 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\gpio.tmp_save
+2026-03-25 15:41:47,947 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\gpio.tmp
+2026-03-25 15:41:48,101 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\dma.tmp_save
+2026-03-25 15:41:48,182 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\dma.tmp
+2026-03-25 15:41:48,192 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\dma_GV.tmp_save
+2026-03-25 15:41:48,246 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\dma_GV.tmp
+2026-03-25 15:41:48,279 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Src\stm32f1xx_it.c_save
+2026-03-25 15:41:48,439 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Src\stm32f1xx_it.c
+2026-03-25 15:41:48,458 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Inc\stm32f1xx_it.h_save
+2026-03-25 15:41:48,518 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Inc\stm32f1xx_it.h
+2026-03-25 15:41:48,565 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Src\stm32f1xx_hal_msp.c_save
+2026-03-25 15:41:48,709 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Src\stm32f1xx_hal_msp.c
+2026-03-25 15:41:48,730 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\system.tmp_save
+2026-03-25 15:41:48,784 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\system.tmp
+2026-03-25 15:41:48,809 [INFO] CodeEngine:319 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Inc\stm32f1xx_hal_conf.h_save
+2026-03-25 15:41:48,868 [INFO] CodeEngine:343 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Inc\stm32f1xx_hal_conf.h
+2026-03-25 15:41:48,893 [INFO] ApiDbMcu:508 - Load IP Config File for ADC1
+2026-03-25 15:41:48,896 [INFO] ApiDbMcu:508 - Load IP Config File for RTC
+2026-03-25 15:41:48,901 [INFO] ApiDbMcu:508 - Load IP Config File for TIM1
+2026-03-25 15:41:48,904 [INFO] ApiDbMcu:508 - Load IP Config File for RCC
+2026-03-25 15:41:48,905 [WARN] IPConfigManager:3747 - IP not found : TIM
+2026-03-25 15:41:48,906 [WARN] CodeGenerator:4198 - IP not found : null
+2026-03-25 15:41:48,922 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Inc\main.h_save
+2026-03-25 15:41:48,999 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Inc\main.h
+2026-03-25 15:41:49,018 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Src\main.c_save
+2026-03-25 15:41:49,109 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Src\main.c
+2026-03-25 15:41:49,446 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 244mS.
+2026-03-25 15:41:49,449 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0-B36
+2026-03-25 15:41:49,509 [INFO] ConfigFileManager:1590 - The Die is : DIE410
+2026-03-25 15:41:49,513 [INFO] ApiDbMcu:508 - Load IP Config File for FATFS
+2026-03-25 15:41:49,519 [INFO] ApiDbMcu:508 - Load IP Config File for FREERTOS
+2026-03-25 15:41:49,525 [INFO] ApiDbMcu:508 - Load IP Config File for USB_DEVICE
+2026-03-25 15:41:50,289 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 840mS.
+2026-03-25 15:41:50,291 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 2mS.
+2026-03-25 15:41:50,295 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 1mS.
+2026-03-25 15:42:40,671 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,672 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,672 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,672 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,672 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,672 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,672 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,672 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,673 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,673 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,676 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,678 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,681 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,681 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,682 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,682 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,683 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,683 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,683 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,683 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,684 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,690 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,690 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,691 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,691 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,691 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,692 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,692 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,692 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,692 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,692 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,692 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,695 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,696 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,697 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,697 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,697 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,697 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,697 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,697 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,697 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,697 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,697 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,701 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,703 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,703 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,703 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,704 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,704 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,704 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,704 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,704 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,704 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,704 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,708 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,708 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,709 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,709 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,709 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,709 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,709 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,709 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,709 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,709 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,709 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,712 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,713 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,715 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,715 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,715 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,715 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,715 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,715 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,715 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,715 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,715 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:42:40,717 [INFO] ADCParametersView:116 -                Rank 1 : false
+2026-03-25 15:44:10,198 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:44:15,045 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,0,0,0x0,invalid,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-03-25 15:44:15,096 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:44:15,098 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:44:15,098 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:44:15,098 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:44:15,098 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:44:15,098 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:44:15,098 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:44:15,098 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:44:15,098 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:44:15,098 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:44:15,103 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:44:16,946 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 869795560 Bytes (1073741824)
+2026-03-25 15:44:18,603 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 894961384 Bytes (1073741824)
+2026-03-25 15:44:23,800 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 758287648 Bytes (1073741824)
+2026-03-25 15:44:23,949 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RTC
+2026-03-25 15:44:23,949 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2026-03-25 15:44:23,949 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: DMA
+2026-03-25 15:44:23,949 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: TIM1_8F1
+2026-03-25 15:44:23,949 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2026-03-25 15:44:23,949 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2026-03-25 15:44:23,949 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: ADC
+2026-03-25 15:44:23,949 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2026-03-25 15:44:23,951 [INFO] CodeGenerator:882 - code generatio: config db path: C:\ST\STM32CubeIDE_1.18.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.0.202502271554\\db\
+2026-03-25 15:44:23,952 [INFO] Argument:325 - Argument : hdmavalue: null
+2026-03-25 15:44:23,952 [INFO] Argument:327 - 	 sub Args: 
+2026-03-25 15:44:23,952 [INFO] Argument:325 - Argument : Instancevalue: DMA1_Channel1
+2026-03-25 15:44:23,952 [INFO] Argument:335 - Argument : Instancevalue: DMA1_Channel1
+2026-03-25 15:44:23,952 [INFO] Argument:325 - Argument : Initvalue: null
+2026-03-25 15:44:23,952 [INFO] Argument:327 - 	 sub Args: 
+2026-03-25 15:44:23,952 [INFO] Argument:325 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2026-03-25 15:44:23,952 [INFO] Argument:335 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2026-03-25 15:44:23,953 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2026-03-25 15:44:23,953 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2026-03-25 15:44:23,953 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2026-03-25 15:44:23,953 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2026-03-25 15:44:23,953 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2026-03-25 15:44:23,953 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2026-03-25 15:44:23,953 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2026-03-25 15:44:23,953 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2026-03-25 15:44:23,953 [INFO] Argument:325 - Argument : Modevalue: DMA_CIRCULAR
+2026-03-25 15:44:23,953 [INFO] Argument:335 - Argument : Modevalue: DMA_CIRCULAR
+2026-03-25 15:44:23,953 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2026-03-25 15:44:23,953 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2026-03-25 15:44:23,953 [INFO] Argument:325 - Argument : Lockvalue: null
+2026-03-25 15:44:23,953 [INFO] Argument:335 - Argument : Lockvalue: null
+2026-03-25 15:44:23,953 [INFO] Argument:325 - Argument : Statevalue: null
+2026-03-25 15:44:23,953 [INFO] Argument:335 - Argument : Statevalue: null
+2026-03-25 15:44:23,953 [INFO] Argument:325 - Argument : Parentvalue: null
+2026-03-25 15:44:23,953 [INFO] Argument:335 - Argument : Parentvalue: null
+2026-03-25 15:44:23,953 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2026-03-25 15:44:23,953 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2026-03-25 15:44:23,953 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2026-03-25 15:44:23,953 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2026-03-25 15:44:23,953 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2026-03-25 15:44:23,953 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2026-03-25 15:44:23,953 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2026-03-25 15:44:23,953 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2026-03-25 15:44:23,989 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\license.tmp_save
+2026-03-25 15:44:24,049 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\license.tmp
+2026-03-25 15:44:24,069 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\gpio.tmp_save
+2026-03-25 15:44:24,127 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\gpio.tmp
+2026-03-25 15:44:24,181 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\dma.tmp_save
+2026-03-25 15:44:24,238 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\dma.tmp
+2026-03-25 15:44:24,245 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\dma_GV.tmp_save
+2026-03-25 15:44:24,283 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\dma_GV.tmp
+2026-03-25 15:44:24,301 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Src\stm32f1xx_it.c_save
+2026-03-25 15:44:24,369 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Src\stm32f1xx_it.c
+2026-03-25 15:44:24,379 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Inc\stm32f1xx_it.h_save
+2026-03-25 15:44:24,424 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Inc\stm32f1xx_it.h
+2026-03-25 15:44:24,451 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Src\stm32f1xx_hal_msp.c_save
+2026-03-25 15:44:24,553 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Src\stm32f1xx_hal_msp.c
+2026-03-25 15:44:24,559 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\system.tmp_save
+2026-03-25 15:44:24,601 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\system.tmp
+2026-03-25 15:44:24,619 [INFO] CodeEngine:319 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Inc\stm32f1xx_hal_conf.h_save
+2026-03-25 15:44:24,684 [INFO] CodeEngine:343 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Inc\stm32f1xx_hal_conf.h
+2026-03-25 15:44:24,698 [WARN] IPConfigManager:3747 - IP not found : TIM
+2026-03-25 15:44:24,699 [WARN] CodeGenerator:4198 - IP not found : null
+2026-03-25 15:44:24,713 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Inc\main.h_save
+2026-03-25 15:44:24,779 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Inc\main.h
+2026-03-25 15:44:24,796 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Src\main.c_save
+2026-03-25 15:44:24,875 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Src\main.c
+2026-03-25 15:44:25,278 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 270mS.
+2026-03-25 15:44:25,282 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0-B36
+2026-03-25 15:44:25,330 [INFO] ConfigFileManager:1590 - The Die is : DIE410
+2026-03-25 15:44:26,151 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 870mS.
+2026-03-25 15:44:26,152 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 1mS.
+2026-03-25 15:44:26,159 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 1mS.
+2026-03-25 15:45:28,493 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,499 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,500 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,500 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,500 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,500 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,502 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,502 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,502 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,502 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,514 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,578 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,583 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,584 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,584 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,585 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,585 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,585 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,585 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,585 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,586 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,593 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,787 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,793 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,794 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,795 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,795 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,795 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,795 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,795 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,796 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,796 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,803 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,843 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,847 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,847 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,847 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,848 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,848 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,848 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,849 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,849 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,849 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:28,856 [INFO] ADCParametersView:116 -                Rank 1 : true
+2026-03-25 15:45:40,674 [INFO] Gpio:277 - dependency for GPIO [ADC1, RCC, TIM1]
+2026-03-25 15:46:44,094 [INFO] NvicIntPanel:101 - NVIC parent = com.st.microxplorer.plugins.ip.nvic.MultiNvicIntPanel[,2,27,453x347,layout=javax.swing.BoxLayout,alignmentX=0.0,alignmentY=0.0,border=,flags=9,maximumSize=,minimumSize=,preferredSize=]
+2026-03-25 15:46:48,665 [INFO] Gpio:277 - dependency for GPIO [ADC1, RCC, TIM1]
+2026-03-25 15:46:50,398 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 905276776 Bytes (1073741824)
+2026-03-25 15:46:51,585 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 927494264 Bytes (1073741824)
+2026-03-25 15:46:52,828 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 766763432 Bytes (1073741824)
+2026-03-25 15:46:53,059 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RTC
+2026-03-25 15:46:53,059 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2026-03-25 15:46:53,059 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: DMA
+2026-03-25 15:46:53,059 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: TIM1_8F1
+2026-03-25 15:46:53,059 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2026-03-25 15:46:53,059 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2026-03-25 15:46:53,060 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: ADC
+2026-03-25 15:46:53,060 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2026-03-25 15:46:53,062 [INFO] CodeGenerator:882 - code generatio: config db path: C:\ST\STM32CubeIDE_1.18.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.0.202502271554\\db\
+2026-03-25 15:46:53,064 [INFO] Argument:325 - Argument : hdmavalue: null
+2026-03-25 15:46:53,064 [INFO] Argument:327 - 	 sub Args: 
+2026-03-25 15:46:53,064 [INFO] Argument:325 - Argument : Instancevalue: DMA1_Channel1
+2026-03-25 15:46:53,064 [INFO] Argument:335 - Argument : Instancevalue: DMA1_Channel1
+2026-03-25 15:46:53,064 [INFO] Argument:325 - Argument : Initvalue: null
+2026-03-25 15:46:53,064 [INFO] Argument:327 - 	 sub Args: 
+2026-03-25 15:46:53,064 [INFO] Argument:325 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2026-03-25 15:46:53,064 [INFO] Argument:335 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2026-03-25 15:46:53,064 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2026-03-25 15:46:53,064 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2026-03-25 15:46:53,065 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2026-03-25 15:46:53,065 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2026-03-25 15:46:53,065 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2026-03-25 15:46:53,065 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2026-03-25 15:46:53,065 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2026-03-25 15:46:53,065 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2026-03-25 15:46:53,065 [INFO] Argument:325 - Argument : Modevalue: DMA_CIRCULAR
+2026-03-25 15:46:53,065 [INFO] Argument:335 - Argument : Modevalue: DMA_CIRCULAR
+2026-03-25 15:46:53,065 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2026-03-25 15:46:53,065 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2026-03-25 15:46:53,065 [INFO] Argument:325 - Argument : Lockvalue: null
+2026-03-25 15:46:53,065 [INFO] Argument:335 - Argument : Lockvalue: null
+2026-03-25 15:46:53,065 [INFO] Argument:325 - Argument : Statevalue: null
+2026-03-25 15:46:53,065 [INFO] Argument:335 - Argument : Statevalue: null
+2026-03-25 15:46:53,065 [INFO] Argument:325 - Argument : Parentvalue: null
+2026-03-25 15:46:53,065 [INFO] Argument:335 - Argument : Parentvalue: null
+2026-03-25 15:46:53,065 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2026-03-25 15:46:53,065 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2026-03-25 15:46:53,065 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2026-03-25 15:46:53,065 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2026-03-25 15:46:53,065 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2026-03-25 15:46:53,066 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2026-03-25 15:46:53,066 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2026-03-25 15:46:53,066 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2026-03-25 15:46:53,112 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\license.tmp_save
+2026-03-25 15:46:53,257 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\license.tmp
+2026-03-25 15:46:53,292 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\gpio.tmp_save
+2026-03-25 15:46:53,389 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\gpio.tmp
+2026-03-25 15:46:53,526 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\dma.tmp_save
+2026-03-25 15:46:53,614 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\dma.tmp
+2026-03-25 15:46:53,625 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\dma_GV.tmp_save
+2026-03-25 15:46:53,685 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\dma_GV.tmp
+2026-03-25 15:46:53,712 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Src\stm32f1xx_it.c_save
+2026-03-25 15:46:53,816 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Src\stm32f1xx_it.c
+2026-03-25 15:46:53,837 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Inc\stm32f1xx_it.h_save
+2026-03-25 15:46:53,895 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Inc\stm32f1xx_it.h
+2026-03-25 15:46:53,937 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Src\stm32f1xx_hal_msp.c_save
+2026-03-25 15:46:54,137 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Src\stm32f1xx_hal_msp.c
+2026-03-25 15:46:54,155 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\system.tmp_save
+2026-03-25 15:46:54,240 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\system.tmp
+2026-03-25 15:46:54,283 [INFO] CodeEngine:319 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Inc\stm32f1xx_hal_conf.h_save
+2026-03-25 15:46:54,410 [INFO] CodeEngine:343 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Inc\stm32f1xx_hal_conf.h
+2026-03-25 15:46:54,471 [WARN] IPConfigManager:3747 - IP not found : TIM
+2026-03-25 15:46:54,473 [WARN] CodeGenerator:4198 - IP not found : null
+2026-03-25 15:46:54,502 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Inc\main.h_save
+2026-03-25 15:46:54,640 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Inc\main.h
+2026-03-25 15:46:54,692 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Src\main.c_save
+2026-03-25 15:46:54,977 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Src\main.c
+2026-03-25 15:46:56,136 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 735mS.
+2026-03-25 15:46:56,157 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0-B36
+2026-03-25 15:46:56,331 [INFO] ConfigFileManager:1590 - The Die is : DIE410
+2026-03-25 15:46:58,223 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 2066mS.
+2026-03-25 15:46:58,227 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 1mS.
+2026-03-25 15:46:58,233 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2026-03-25 15:47:56,798 [INFO] Gpio:277 - dependency for GPIO [ADC1, RCC, TIM1]
+2026-03-25 15:47:56,909 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] java.lang.Error: no ComponentUI class for: com.st.microxplorer.plugins.ip.nvic.CheckBoxHeader[,0,0,0x0,invalid,alignmentX=0.0,alignmentY=0.0,border=,flags=0,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=null,paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=false,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=]
+2026-03-25 15:47:56,910 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.UIDefaults.getUIError(UIDefaults.java:763)
+2026-03-25 15:47:56,911 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.MultiUIDefaults.getUIError(MultiUIDefaults.java:144)
+2026-03-25 15:47:56,912 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.UIDefaults.getUI(UIDefaults.java:793)
+2026-03-25 15:47:56,913 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.UIManager.getUI(UIManager.java:1070)
+2026-03-25 15:47:56,913 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JCheckBox.updateUI(JCheckBox.java:228)
+2026-03-25 15:47:56,915 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.AbstractButton.init(AbstractButton.java:2141)
+2026-03-25 15:47:56,916 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JToggleButton.<init>(JToggleButton.java:187)
+2026-03-25 15:47:56,918 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JCheckBox.<init>(JCheckBox.java:176)
+2026-03-25 15:47:56,919 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JCheckBox.<init>(JCheckBox.java:97)
+2026-03-25 15:47:56,920 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.CheckBoxHeader.<init>(CheckBoxHeader.java:55)
+2026-03-25 15:47:56,923 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicCodeSelectionTable.<init>(NvicCodeSelectionTable.java:75)
+2026-03-25 15:47:56,923 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicCodePanel.initComponents(NvicCodePanel.java:102)
+2026-03-25 15:47:56,924 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicCodePanel.<init>(NvicCodePanel.java:78)
+2026-03-25 15:47:56,924 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicTabbedPanel.<init>(NvicTabbedPanel.java:57)
+2026-03-25 15:47:56,926 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.Nvic.getUI(Nvic.java:73)
+2026-03-25 15:47:56,926 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.createIpPanel(BlockDiagram.java:402)
+2026-03-25 15:47:56,927 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.getIPConfigPanel(BlockDiagram.java:552)
+2026-03-25 15:47:56,929 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.getIPConfigPanel(BlockDiagram.java:458)
+2026-03-25 15:47:56,929 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.propertyChange(BlockDiagram.java:1389)
+2026-03-25 15:47:56,930 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:343)
+2026-03-25 15:47:56,931 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:335)
+2026-03-25 15:47:56,932 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:268)
+2026-03-25 15:47:56,933 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.util.MXPropertyChangeSupport.firePropertyChange(MXPropertyChangeSupport.java:54)
+2026-03-25 15:47:56,934 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.mxsystem.MxSystem.firePropertyChange(MxSystem.java:357)
+2026-03-25 15:47:56,935 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.pinoutconfig.guiV5.PeripheralsSelectionPanel.selectIP(PeripheralsSelectionPanel.java:409)
+2026-03-25 15:47:56,936 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.pinoutconfig.guiV5.PeripheralsSelectionPanel.openIPNode(PeripheralsSelectionPanel.java:421)
+2026-03-25 15:47:56,937 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.pinoutconfig.gui.PeripheralSearchPanel$PeriphSearchKeyListener.keyReleased(PeripheralSearchPanel.java:167)
+2026-03-25 15:47:56,938 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.keyReleased(AWTEventMulticaster.java:268)
+2026-03-25 15:47:56,938 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processKeyEvent(Component.java:6582)
+2026-03-25 15:47:56,939 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JComponent.processKeyEvent(JComponent.java:2905)
+2026-03-25 15:47:56,939 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processEvent(Component.java:6398)
+2026-03-25 15:47:56,940 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+2026-03-25 15:47:56,940 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+2026-03-25 15:47:56,941 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+2026-03-25 15:47:56,941 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+2026-03-25 15:47:56,942 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1952)
+2026-03-25 15:47:56,943 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(DefaultKeyboardFocusManager.java:883)
+2026-03-25 15:47:56,943 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(DefaultKeyboardFocusManager.java:1146)
+2026-03-25 15:47:56,944 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:1020)
+2026-03-25 15:47:56,944 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:848)
+2026-03-25 15:47:56,946 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4877)
+2026-03-25 15:47:56,946 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+2026-03-25 15:47:56,946 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+2026-03-25 15:47:56,947 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+2026-03-25 15:47:56,947 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+2026-03-25 15:47:56,948 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+2026-03-25 15:47:56,948 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+2026-03-25 15:47:56,949 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+2026-03-25 15:47:56,950 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+2026-03-25 15:47:56,951 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+2026-03-25 15:47:56,951 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+2026-03-25 15:47:56,952 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+2026-03-25 15:47:56,952 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+2026-03-25 15:47:56,953 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+2026-03-25 15:47:56,954 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2026-03-25 15:47:56,954 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2026-03-25 15:47:56,955 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2026-03-25 15:47:56,956 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2026-03-25 15:47:56,956 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2026-03-25 15:47:56,956 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2026-03-25 15:47:56,960 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] java.lang.Error: no ComponentUI class for: com.st.microxplorer.plugins.ip.nvic.CheckBoxHeader[,0,0,0x0,invalid,alignmentX=0.0,alignmentY=0.0,border=,flags=0,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=null,paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=false,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=]
+2026-03-25 15:47:56,960 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.UIDefaults.getUIError(UIDefaults.java:763)
+2026-03-25 15:47:56,961 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.MultiUIDefaults.getUIError(MultiUIDefaults.java:144)
+2026-03-25 15:47:56,961 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.UIDefaults.getUI(UIDefaults.java:793)
+2026-03-25 15:47:56,962 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.UIManager.getUI(UIManager.java:1070)
+2026-03-25 15:47:56,962 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JCheckBox.updateUI(JCheckBox.java:228)
+2026-03-25 15:47:56,962 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.AbstractButton.init(AbstractButton.java:2141)
+2026-03-25 15:47:56,963 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JToggleButton.<init>(JToggleButton.java:187)
+2026-03-25 15:47:56,963 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JCheckBox.<init>(JCheckBox.java:176)
+2026-03-25 15:47:56,964 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JCheckBox.<init>(JCheckBox.java:97)
+2026-03-25 15:47:56,969 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.CheckBoxHeader.<init>(CheckBoxHeader.java:55)
+2026-03-25 15:47:56,970 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicCodeSelectionTable.<init>(NvicCodeSelectionTable.java:78)
+2026-03-25 15:47:56,970 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicCodePanel.initComponents(NvicCodePanel.java:102)
+2026-03-25 15:47:56,971 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicCodePanel.<init>(NvicCodePanel.java:78)
+2026-03-25 15:47:56,972 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicTabbedPanel.<init>(NvicTabbedPanel.java:57)
+2026-03-25 15:47:56,972 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.Nvic.getUI(Nvic.java:73)
+2026-03-25 15:47:56,972 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.createIpPanel(BlockDiagram.java:402)
+2026-03-25 15:47:56,973 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.getIPConfigPanel(BlockDiagram.java:552)
+2026-03-25 15:47:56,974 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.getIPConfigPanel(BlockDiagram.java:458)
+2026-03-25 15:47:56,974 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.propertyChange(BlockDiagram.java:1389)
+2026-03-25 15:47:56,975 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:343)
+2026-03-25 15:47:56,975 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:335)
+2026-03-25 15:47:56,976 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:268)
+2026-03-25 15:47:56,977 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.util.MXPropertyChangeSupport.firePropertyChange(MXPropertyChangeSupport.java:54)
+2026-03-25 15:47:56,977 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.mxsystem.MxSystem.firePropertyChange(MxSystem.java:357)
+2026-03-25 15:47:56,978 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.pinoutconfig.guiV5.PeripheralsSelectionPanel.selectIP(PeripheralsSelectionPanel.java:409)
+2026-03-25 15:47:56,979 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.pinoutconfig.guiV5.PeripheralsSelectionPanel.openIPNode(PeripheralsSelectionPanel.java:421)
+2026-03-25 15:47:56,979 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.pinoutconfig.gui.PeripheralSearchPanel$PeriphSearchKeyListener.keyReleased(PeripheralSearchPanel.java:167)
+2026-03-25 15:47:56,980 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.keyReleased(AWTEventMulticaster.java:268)
+2026-03-25 15:47:56,980 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processKeyEvent(Component.java:6582)
+2026-03-25 15:47:56,982 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JComponent.processKeyEvent(JComponent.java:2905)
+2026-03-25 15:47:56,982 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processEvent(Component.java:6398)
+2026-03-25 15:47:56,983 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+2026-03-25 15:47:56,983 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+2026-03-25 15:47:56,984 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+2026-03-25 15:47:56,984 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+2026-03-25 15:47:56,984 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.KeyboardFocusManager.redispatchEvent(KeyboardFocusManager.java:1952)
+2026-03-25 15:47:56,985 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.DefaultKeyboardFocusManager.dispatchKeyEvent(DefaultKeyboardFocusManager.java:883)
+2026-03-25 15:47:56,986 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.DefaultKeyboardFocusManager.preDispatchKeyEvent(DefaultKeyboardFocusManager.java:1146)
+2026-03-25 15:47:56,986 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.DefaultKeyboardFocusManager.typeAheadAssertions(DefaultKeyboardFocusManager.java:1020)
+2026-03-25 15:47:56,988 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.DefaultKeyboardFocusManager.dispatchEvent(DefaultKeyboardFocusManager.java:848)
+2026-03-25 15:47:56,988 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4877)
+2026-03-25 15:47:56,989 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+2026-03-25 15:47:56,989 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+2026-03-25 15:47:56,990 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+2026-03-25 15:47:56,990 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+2026-03-25 15:47:56,990 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+2026-03-25 15:47:56,991 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+2026-03-25 15:47:56,991 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+2026-03-25 15:47:56,992 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+2026-03-25 15:47:56,992 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+2026-03-25 15:47:56,993 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+2026-03-25 15:47:56,993 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+2026-03-25 15:47:56,995 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+2026-03-25 15:47:56,995 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+2026-03-25 15:47:56,995 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2026-03-25 15:47:56,996 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2026-03-25 15:47:56,997 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2026-03-25 15:47:56,997 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2026-03-25 15:47:56,998 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2026-03-25 15:47:56,998 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2026-03-25 15:50:21,652 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 879309064 Bytes (1073741824)
+2026-03-25 15:50:23,288 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 935889440 Bytes (1073741824)
+2026-03-25 15:50:23,544 [INFO] UtilMem:75 - End SaveConfig() Used Memory: 995658264 Bytes (1073741824)
+2026-03-25 15:50:23,743 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RTC
+2026-03-25 15:50:23,743 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: NVIC
+2026-03-25 15:50:23,743 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: DMA
+2026-03-25 15:50:23,743 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: TIM1_8F1
+2026-03-25 15:50:23,743 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: SYS
+2026-03-25 15:50:23,744 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: GPIO
+2026-03-25 15:50:23,744 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: ADC
+2026-03-25 15:50:23,744 [INFO] BlockDiagram:2775 - set Specific Code input for plugin: RCC
+2026-03-25 15:50:23,747 [INFO] CodeGenerator:882 - code generatio: config db path: C:\ST\STM32CubeIDE_1.18.0\STM32CubeIDE\plugins\com.st.stm32cube.common.mx_6.14.0.202502271554\\db\
+2026-03-25 15:50:23,751 [INFO] Argument:325 - Argument : hdmavalue: null
+2026-03-25 15:50:23,751 [INFO] Argument:327 - 	 sub Args: 
+2026-03-25 15:50:23,751 [INFO] Argument:325 - Argument : Instancevalue: DMA1_Channel1
+2026-03-25 15:50:23,751 [INFO] Argument:335 - Argument : Instancevalue: DMA1_Channel1
+2026-03-25 15:50:23,751 [INFO] Argument:325 - Argument : Initvalue: null
+2026-03-25 15:50:23,751 [INFO] Argument:327 - 	 sub Args: 
+2026-03-25 15:50:23,751 [INFO] Argument:325 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2026-03-25 15:50:23,751 [INFO] Argument:335 - Argument : Directionvalue: DMA_PERIPH_TO_MEMORY
+2026-03-25 15:50:23,751 [INFO] Argument:325 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2026-03-25 15:50:23,751 [INFO] Argument:335 - Argument : PeriphIncvalue: DMA_PINC_DISABLE
+2026-03-25 15:50:23,751 [INFO] Argument:325 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2026-03-25 15:50:23,751 [INFO] Argument:335 - Argument : MemIncvalue: DMA_MINC_ENABLE
+2026-03-25 15:50:23,751 [INFO] Argument:325 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2026-03-25 15:50:23,751 [INFO] Argument:335 - Argument : PeriphDataAlignmentvalue: DMA_PDATAALIGN_HALFWORD
+2026-03-25 15:50:23,751 [INFO] Argument:325 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2026-03-25 15:50:23,751 [INFO] Argument:335 - Argument : MemDataAlignmentvalue: DMA_MDATAALIGN_HALFWORD
+2026-03-25 15:50:23,751 [INFO] Argument:325 - Argument : Modevalue: DMA_CIRCULAR
+2026-03-25 15:50:23,751 [INFO] Argument:335 - Argument : Modevalue: DMA_CIRCULAR
+2026-03-25 15:50:23,751 [INFO] Argument:325 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2026-03-25 15:50:23,751 [INFO] Argument:335 - Argument : Priorityvalue: DMA_PRIORITY_HIGH
+2026-03-25 15:50:23,751 [INFO] Argument:325 - Argument : Lockvalue: null
+2026-03-25 15:50:23,751 [INFO] Argument:335 - Argument : Lockvalue: null
+2026-03-25 15:50:23,751 [INFO] Argument:325 - Argument : Statevalue: null
+2026-03-25 15:50:23,751 [INFO] Argument:335 - Argument : Statevalue: null
+2026-03-25 15:50:23,751 [INFO] Argument:325 - Argument : Parentvalue: null
+2026-03-25 15:50:23,752 [INFO] Argument:335 - Argument : Parentvalue: null
+2026-03-25 15:50:23,752 [INFO] Argument:325 - Argument : XferCpltCallbackvalue: null
+2026-03-25 15:50:23,752 [INFO] Argument:335 - Argument : XferCpltCallbackvalue: null
+2026-03-25 15:50:23,752 [INFO] Argument:325 - Argument : XferHalfCpltCallbackvalue: null
+2026-03-25 15:50:23,752 [INFO] Argument:335 - Argument : XferHalfCpltCallbackvalue: null
+2026-03-25 15:50:23,752 [INFO] Argument:325 - Argument : XferErrorCallbackvalue: null
+2026-03-25 15:50:23,752 [INFO] Argument:335 - Argument : XferErrorCallbackvalue: null
+2026-03-25 15:50:23,752 [INFO] Argument:325 - Argument : ErrorCodevalue: null
+2026-03-25 15:50:23,752 [INFO] Argument:335 - Argument : ErrorCodevalue: null
+2026-03-25 15:50:23,818 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\license.tmp_save
+2026-03-25 15:50:23,899 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\license.tmp
+2026-03-25 15:50:23,933 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\gpio.tmp_save
+2026-03-25 15:50:23,997 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\gpio.tmp
+2026-03-25 15:50:24,068 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\dma.tmp_save
+2026-03-25 15:50:24,129 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\dma.tmp
+2026-03-25 15:50:24,137 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\dma_GV.tmp_save
+2026-03-25 15:50:24,177 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\dma_GV.tmp
+2026-03-25 15:50:24,197 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Src\stm32f1xx_it.c_save
+2026-03-25 15:50:24,267 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Src\stm32f1xx_it.c
+2026-03-25 15:50:24,279 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Inc\stm32f1xx_it.h_save
+2026-03-25 15:50:24,327 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Inc\stm32f1xx_it.h
+2026-03-25 15:50:24,357 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Src\stm32f1xx_hal_msp.c_save
+2026-03-25 15:50:24,456 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Src\stm32f1xx_hal_msp.c
+2026-03-25 15:50:24,463 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\system.tmp_save
+2026-03-25 15:50:24,507 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\MXTmpFiles\system.tmp
+2026-03-25 15:50:24,526 [INFO] CodeEngine:319 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Inc\stm32f1xx_hal_conf.h_save
+2026-03-25 15:50:24,588 [INFO] CodeEngine:343 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Inc\stm32f1xx_hal_conf.h
+2026-03-25 15:50:24,607 [WARN] IPConfigManager:3747 - IP not found : TIM
+2026-03-25 15:50:24,607 [WARN] CodeGenerator:4198 - IP not found : null
+2026-03-25 15:50:24,622 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Inc\main.h_save
+2026-03-25 15:50:24,686 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Inc\main.h
+2026-03-25 15:50:24,705 [INFO] CodeEngine:263 - oldGeneratedFile, C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Src\main.c_save
+2026-03-25 15:50:24,788 [INFO] CodeEngine:287 - Generated code: C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Pet\Core\Src\main.c
+2026-03-25 15:50:25,122 [INFO] ProjectBuilder:3324 - Time for Copy HAL[1] : 245mS.
+2026-03-25 15:50:25,126 [INFO] ProjectBuilder:4912 - Project Generator version: 4.6.0-B36
+2026-03-25 15:50:25,172 [INFO] ConfigFileManager:1590 - The Die is : DIE410
+2026-03-25 15:50:25,971 [INFO] ProjectBuilder:5191 - Time for Generating toolchain IDE Files: 845mS.
+2026-03-25 15:50:25,972 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 1mS.
+2026-03-25 15:50:25,977 [INFO] ProjectBuilder:3181 - Time for Copy CMSIS : 0mS.
+2026-03-25 16:08:44,347 [INFO] DmaTabbedPanel:205 - Cannot restore the selected Tab for DMA
+2026-03-25 16:08:46,310 [INFO] Gpio:277 - dependency for GPIO [ADC1, RCC, TIM1]
+2026-03-25 16:08:50,600 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] java.lang.Error: no ComponentUI class for: com.st.microxplorer.plugins.ip.nvic.CheckBoxHeader[,0,0,0x0,invalid,alignmentX=0.0,alignmentY=0.0,border=,flags=0,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=null,paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=false,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=]
+2026-03-25 16:08:50,602 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.UIDefaults.getUIError(UIDefaults.java:763)
+2026-03-25 16:08:50,603 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.MultiUIDefaults.getUIError(MultiUIDefaults.java:144)
+2026-03-25 16:08:50,604 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.UIDefaults.getUI(UIDefaults.java:793)
+2026-03-25 16:08:50,605 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.UIManager.getUI(UIManager.java:1070)
+2026-03-25 16:08:50,605 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JCheckBox.updateUI(JCheckBox.java:228)
+2026-03-25 16:08:50,606 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.AbstractButton.init(AbstractButton.java:2141)
+2026-03-25 16:08:50,607 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JToggleButton.<init>(JToggleButton.java:187)
+2026-03-25 16:08:50,608 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JCheckBox.<init>(JCheckBox.java:176)
+2026-03-25 16:08:50,609 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JCheckBox.<init>(JCheckBox.java:97)
+2026-03-25 16:08:50,610 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.CheckBoxHeader.<init>(CheckBoxHeader.java:55)
+2026-03-25 16:08:50,611 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicCodeSelectionTable.<init>(NvicCodeSelectionTable.java:75)
+2026-03-25 16:08:50,613 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicCodePanel.initComponents(NvicCodePanel.java:102)
+2026-03-25 16:08:50,614 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicCodePanel.<init>(NvicCodePanel.java:78)
+2026-03-25 16:08:50,615 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicTabbedPanel.<init>(NvicTabbedPanel.java:57)
+2026-03-25 16:08:50,616 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.Nvic.getUI(Nvic.java:73)
+2026-03-25 16:08:50,618 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.createIpPanel(BlockDiagram.java:402)
+2026-03-25 16:08:50,619 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.getIPConfigPanel(BlockDiagram.java:552)
+2026-03-25 16:08:50,620 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.getIPConfigPanel(BlockDiagram.java:458)
+2026-03-25 16:08:50,621 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.propertyChange(BlockDiagram.java:1389)
+2026-03-25 16:08:50,622 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:343)
+2026-03-25 16:08:50,622 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:335)
+2026-03-25 16:08:50,624 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:268)
+2026-03-25 16:08:50,625 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.util.MXPropertyChangeSupport.firePropertyChange(MXPropertyChangeSupport.java:54)
+2026-03-25 16:08:50,626 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.mxsystem.MxSystem.firePropertyChange(MxSystem.java:357)
+2026-03-25 16:08:50,627 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.pinoutconfig.guiV5.PeripheralsSelectionPanel.selectIP(PeripheralsSelectionPanel.java:409)
+2026-03-25 16:08:50,628 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.pinoutconfig.guiV5.PeripheralsListListener.mouseClicked(PeripheralsListListener.java:103)
+2026-03-25 16:08:50,629 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:278)
+2026-03-25 16:08:50,629 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:277)
+2026-03-25 16:08:50,631 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:277)
+2026-03-25 16:08:50,632 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6624)
+2026-03-25 16:08:50,632 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3398)
+2026-03-25 16:08:50,634 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+2026-03-25 16:08:50,635 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+2026-03-25 16:08:50,636 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+2026-03-25 16:08:50,637 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+2026-03-25 16:08:50,637 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+2026-03-25 16:08:50,638 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+2026-03-25 16:08:50,639 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4584)
+2026-03-25 16:08:50,640 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+2026-03-25 16:08:50,640 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+2026-03-25 16:08:50,641 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+2026-03-25 16:08:50,642 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+2026-03-25 16:08:50,642 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+2026-03-25 16:08:50,644 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+2026-03-25 16:08:50,644 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+2026-03-25 16:08:50,645 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+2026-03-25 16:08:50,646 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+2026-03-25 16:08:50,647 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+2026-03-25 16:08:50,647 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+2026-03-25 16:08:50,648 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+2026-03-25 16:08:50,649 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+2026-03-25 16:08:50,649 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+2026-03-25 16:08:50,651 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2026-03-25 16:08:50,652 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2026-03-25 16:08:50,653 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2026-03-25 16:08:50,654 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2026-03-25 16:08:50,655 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2026-03-25 16:08:50,656 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)
+2026-03-25 16:08:50,659 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] java.lang.Error: no ComponentUI class for: com.st.microxplorer.plugins.ip.nvic.CheckBoxHeader[,0,0,0x0,invalid,alignmentX=0.0,alignmentY=0.0,border=,flags=0,maximumSize=,minimumSize=,preferredSize=,defaultIcon=,disabledIcon=,disabledSelectedIcon=,margin=null,paintBorder=true,paintFocus=true,pressedIcon=,rolloverEnabled=false,rolloverIcon=,rolloverSelectedIcon=,selectedIcon=,text=]
+2026-03-25 16:08:50,660 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.UIDefaults.getUIError(UIDefaults.java:763)
+2026-03-25 16:08:50,661 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.MultiUIDefaults.getUIError(MultiUIDefaults.java:144)
+2026-03-25 16:08:50,662 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.UIDefaults.getUI(UIDefaults.java:793)
+2026-03-25 16:08:50,662 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.UIManager.getUI(UIManager.java:1070)
+2026-03-25 16:08:50,663 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JCheckBox.updateUI(JCheckBox.java:228)
+2026-03-25 16:08:50,664 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.AbstractButton.init(AbstractButton.java:2141)
+2026-03-25 16:08:50,664 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JToggleButton.<init>(JToggleButton.java:187)
+2026-03-25 16:08:50,665 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JCheckBox.<init>(JCheckBox.java:176)
+2026-03-25 16:08:50,665 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JCheckBox.<init>(JCheckBox.java:97)
+2026-03-25 16:08:50,666 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.CheckBoxHeader.<init>(CheckBoxHeader.java:55)
+2026-03-25 16:08:50,666 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicCodeSelectionTable.<init>(NvicCodeSelectionTable.java:78)
+2026-03-25 16:08:50,667 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicCodePanel.initComponents(NvicCodePanel.java:102)
+2026-03-25 16:08:50,667 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicCodePanel.<init>(NvicCodePanel.java:78)
+2026-03-25 16:08:50,669 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.NvicTabbedPanel.<init>(NvicTabbedPanel.java:57)
+2026-03-25 16:08:50,669 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ip.nvic.Nvic.getUI(Nvic.java:73)
+2026-03-25 16:08:50,670 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.createIpPanel(BlockDiagram.java:402)
+2026-03-25 16:08:50,670 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.getIPConfigPanel(BlockDiagram.java:552)
+2026-03-25 16:08:50,671 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.getIPConfigPanel(BlockDiagram.java:458)
+2026-03-25 16:08:50,672 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.ipmanager.gui.BlockDiagram.propertyChange(BlockDiagram.java:1389)
+2026-03-25 16:08:50,672 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.fire(PropertyChangeSupport.java:343)
+2026-03-25 16:08:50,673 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:335)
+2026-03-25 16:08:50,673 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.beans.PropertyChangeSupport.firePropertyChange(PropertyChangeSupport.java:268)
+2026-03-25 16:08:50,674 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.util.MXPropertyChangeSupport.firePropertyChange(MXPropertyChangeSupport.java:54)
+2026-03-25 16:08:50,675 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.mxsystem.MxSystem.firePropertyChange(MxSystem.java:357)
+2026-03-25 16:08:50,675 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.pinoutconfig.guiV5.PeripheralsSelectionPanel.selectIP(PeripheralsSelectionPanel.java:409)
+2026-03-25 16:08:50,676 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at com.st.microxplorer.plugins.pinoutconfig.guiV5.PeripheralsListListener.mouseClicked(PeripheralsListListener.java:103)
+2026-03-25 16:08:50,676 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:278)
+2026-03-25 16:08:50,677 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:277)
+2026-03-25 16:08:50,678 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.AWTEventMulticaster.mouseClicked(AWTEventMulticaster.java:277)
+2026-03-25 16:08:50,678 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processMouseEvent(Component.java:6624)
+2026-03-25 16:08:50,679 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/javax.swing.JComponent.processMouseEvent(JComponent.java:3398)
+2026-03-25 16:08:50,679 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.processEvent(Component.java:6386)
+2026-03-25 16:08:50,680 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.processEvent(Container.java:2266)
+2026-03-25 16:08:50,680 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEventImpl(Component.java:4996)
+2026-03-25 16:08:50,681 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2324)
+2026-03-25 16:08:50,681 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+2026-03-25 16:08:50,683 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.retargetMouseEvent(Container.java:4948)
+2026-03-25 16:08:50,683 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.processMouseEvent(Container.java:4584)
+2026-03-25 16:08:50,684 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.LightweightDispatcher.dispatchEvent(Container.java:4516)
+2026-03-25 16:08:50,684 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Container.dispatchEventImpl(Container.java:2310)
+2026-03-25 16:08:50,685 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.Component.dispatchEvent(Component.java:4828)
+2026-03-25 16:08:50,686 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEventImpl(EventQueue.java:775)
+2026-03-25 16:08:50,686 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:720)
+2026-03-25 16:08:50,686 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$4.run(EventQueue.java:714)
+2026-03-25 16:08:50,687 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+2026-03-25 16:08:50,687 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+2026-03-25 16:08:50,688 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:98)
+2026-03-25 16:08:50,688 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:747)
+2026-03-25 16:08:50,689 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue$5.run(EventQueue.java:745)
+2026-03-25 16:08:50,689 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.AccessController.doPrivileged(AccessController.java:400)
+2026-03-25 16:08:50,690 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.base/java.security.ProtectionDomain$JavaSecurityAccessImpl.doIntersectionPrivilege(ProtectionDomain.java:87)
+2026-03-25 16:08:50,691 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventQueue.dispatchEvent(EventQueue.java:744)
+2026-03-25 16:08:50,691 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpOneEventForFilters(EventDispatchThread.java:203)
+2026-03-25 16:08:50,692 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForFilter(EventDispatchThread.java:124)
+2026-03-25 16:08:50,692 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEventsForHierarchy(EventDispatchThread.java:113)
+2026-03-25 16:08:50,695 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:109)
+2026-03-25 16:08:50,695 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.pumpEvents(EventDispatchThread.java:101)
+2026-03-25 16:08:50,695 [ERROR] LogOutputStream:75 - [STDERR_REDIRECT] 	at java.desktop/java.awt.EventDispatchThread.run(EventDispatchThread.java:90)

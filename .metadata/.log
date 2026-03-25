@@ -2488,3 +2488,6 @@ Reason: (18) Could not verify ST device! Abort connection.
 !SUBENTRY 2 com.st.stm32cube.ide.mcu.toolchain 4 0 2026-03-25 15:28:52.169
 !MESSAGE Error in initializing ST-LINK device.
 Reason: (18) Could not verify ST device! Abort connection.
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-03-25 16:48:29.239
+!MESSAGE Indexed 'Test' (17 sources, 78 headers) in 3.46 sec: 3,647 declarations; 13,278 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.012%)
