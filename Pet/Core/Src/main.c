@@ -113,10 +113,10 @@ void Stop_Enter_Point()
 
 void Start_Feed(uint32_t period_ms)
 {
-	if(speed > 100)
-		speed = 100;
-	if(speed < 0)
-		speed = 0;
+	if(period_ms > 100)
+		period_ms = 100;
+	if(period_ms < 0)
+		period_ms = 0;
 
 	Start_Enter_Point();
 

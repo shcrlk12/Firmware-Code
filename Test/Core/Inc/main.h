@@ -61,6 +61,13 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define DO_BLUE_LED_Pin GPIO_PIN_13
 #define DO_BLUE_LED_GPIO_Port GPIOC
+#define AI_FEED_TIME_Pin GPIO_PIN_0
+#define AI_FEED_TIME_GPIO_Port GPIOA
+#define DI_FEED_SW_Pin GPIO_PIN_10
+#define DI_FEED_SW_GPIO_Port GPIOB
+#define DI_FEED_SW_EXTI_IRQn EXTI15_10_IRQn
+#define TIM_PWM_MOTOR_Pin GPIO_PIN_10
+#define TIM_PWM_MOTOR_GPIO_Port GPIOA
 
 /* USER CODE BEGIN Private defines */
 
