@@ -1,0 +1,8 @@
+../Apps/States/Src/battmgmt_state.c:12:14:BattmgmtState_Loop	10
+../Apps/States/Src/battmgmt_state.c:66:22:BattmgmtState_Init	1
+../Apps/States/Src/battmgmt_state.c:71:22:BattmgmtState_HoldBattLow	2
+../Apps/States/Src/battmgmt_state.c:80:22:BattmgmtState_StartCharge	1
+../Apps/States/Src/battmgmt_state.c:88:22:BattmgmtState_Charge	1
+../Apps/States/Src/battmgmt_state.c:100:22:BattmgmtState_StartChargeFromPassInput	1
+../Apps/States/Src/battmgmt_state.c:113:22:BattmgmtState_ChargeFromPassInput	1
+../Apps/States/Src/battmgmt_state.c:125:6:Batt_DC_PlugState	1

@@ -1,0 +1,2 @@
+../Apps/Src/error.c:11:14:Check_Stop	16	static,ignoring_inline_asm
+../Apps/Src/error.c:23:14:Check_Error	16	static,ignoring_inline_asm

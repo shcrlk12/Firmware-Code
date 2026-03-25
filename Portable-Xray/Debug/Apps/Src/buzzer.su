@@ -1,0 +1,5 @@
+../Apps/Src/buzzer.c:13:6:BUZZER_TIMER_Interrupt_Handler	4	static
+../Apps/Src/buzzer.c:23:6:BUZZER_Set	16	static
+../Apps/Src/buzzer.c:37:6:BUZZER_Beep	16	static
+../Apps/Src/buzzer.c:45:6:BUZZER_Update	8	static
+../Apps/Src/buzzer.c:58:6:BUZZER_Initialize	4	static

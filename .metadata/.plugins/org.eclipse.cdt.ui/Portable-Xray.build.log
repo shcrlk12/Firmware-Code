@@ -1,0 +1,37 @@
+11:50:32 **** Incremental Build of configuration Debug for project Portable-Xray ****
+make -j20 all 
+arm-none-eabi-gcc "../Apps/States/Src/error_state.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Apps/Inc -I../Apps/States/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Apps/States/Src/error_state.d" -MT"Apps/States/Src/error_state.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Apps/States/Src/error_state.o"
+arm-none-eabi-gcc "../Apps/Src/eeprom.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xE -c -I../Core/Inc -I../Apps/Inc -I../Apps/States/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Apps/Src/eeprom.d" -MT"Apps/Src/eeprom.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Apps/Src/eeprom.o"
+../Apps/Src/eeprom.c: In function 'EEPROM_WriteCalibrationResults':
+../Apps/Src/eeprom.c:115:5: warning: implicit declaration of function 'PROC_ErrorThresholdEvaluation' [-Wimplicit-function-declaration]
+  115 |     PROC_ErrorThresholdEvaluation();
+      |     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+../Apps/Src/eeprom.c: In function 'EEPROM_Init':
+../Apps/Src/eeprom.c:254:39: error: 'FW_VERSION' undeclared (first use in this function)
+  254 |     g_accu_system.serial.fw_version = FW_VERSION;
+      |                                       ^~~~~~~~~~
+../Apps/Src/eeprom.c:254:39: note: each undeclared identifier is reported only once for each function it appears in
+../Apps/Src/eeprom.c: In function 'EEPROM_LoadAll':
+../Apps/Src/eeprom.c:535:5: warning: implicit declaration of function 'DATALOG_InitExposureLog' [-Wimplicit-function-declaration]
+  535 |     DATALOG_InitExposureLog();
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+../Apps/Src/eeprom.c:557:5: warning: implicit declaration of function 'CONTROL_SetBuckDeadTime' [-Wimplicit-function-declaration]
+  557 |     CONTROL_SetBuckDeadTime(g_accu_system.buck.pwm_min);
+      |     ^~~~~~~~~~~~~~~~~~~~~~~
+../Apps/Src/eeprom.c: In function 'RTC_PrintTime':
+../Apps/Src/eeprom.c:614:5: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  614 |     printf("%d,%d,%d,%d,%d,%d\r\n", yr, mo, day, hr, min, sec);
+      |     ^~~~~~
+../Apps/Src/eeprom.c:12:1: note: include '<stdio.h>' or provide a declaration of 'printf'
+   11 | #include "unit_conversion.h"
+  +++ |+#include <stdio.h>
+   12 | 
+../Apps/Src/eeprom.c:614:5: warning: incompatible implicit declaration of built-in function 'printf' [-Wbuiltin-declaration-mismatch]
+  614 |     printf("%d,%d,%d,%d,%d,%d\r\n", yr, mo, day, hr, min, sec);
+      |     ^~~~~~
+../Apps/Src/eeprom.c:614:5: note: include '<stdio.h>' or provide a declaration of 'printf'
+make: *** [Apps/Src/subdir.mk:52: Apps/Src/eeprom.o] Error 1
+"make -j20 all" terminated with exit code 2. Build might be incomplete.
+
+11:50:33 Build Failed. 2 errors, 5 warnings. (took 581ms)
+

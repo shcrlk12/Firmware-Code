@@ -1,0 +1,3 @@
+../Apps/States/Src/standby_state.c:6:21:StandbyState_Init	4	static
+../Apps/States/Src/standby_state.c:11:21:StandbyState_Setup	4	static
+../Apps/States/Src/standby_state.c:18:14:StandbyState_Loop	16	static

@@ -1,0 +1,15 @@
+../Apps/Src/led.c:45:6:LED_Update	16	static,ignoring_inline_asm
+../Apps/Src/led.c:70:6:LED_AllOff	4	static
+../Apps/Src/led.c:75:6:LED_AllOn	4	static
+../Apps/Src/led.c:80:6:LED_ErrorOn	4	static
+../Apps/Src/led.c:85:6:LED_ErrorOff	4	static
+../Apps/Src/led.c:90:6:LED_PowerOn	4	static
+../Apps/Src/led.c:95:6:LED_PowerOff	4	static
+../Apps/Src/led.c:100:6:LED_RecordOn	4	static
+../Apps/Src/led.c:105:6:LED_RecordOff	4	static
+../Apps/Src/led.c:110:6:LED_WaitOn	4	static
+../Apps/Src/led.c:115:6:LED_WaitOff	4	static
+../Apps/Src/led.c:120:6:LED_ReadyOn	4	static
+../Apps/Src/led.c:125:6:LED_ReadyOff	4	static
+../Apps/Src/led.c:130:6:LED_ExposureOn	4	static
+../Apps/Src/led.c:135:6:LED_ExposureOff	4	static

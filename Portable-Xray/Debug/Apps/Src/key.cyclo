@@ -1,0 +1,9 @@
+../Apps/Src/key.c:36:6:Key_Initialize	1
+../Apps/Src/key.c:43:6:Key_Update	1
+../Apps/Src/key.c:49:6:Key_State_Idle	3
+../Apps/Src/key.c:63:6:Key_State_Btn1_Press	4
+../Apps/Src/key.c:85:6:Key_State_Btn1_Long	4
+../Apps/Src/key.c:107:6:Key_State_Btn1_VLong	3
+../Apps/Src/key.c:124:6:Key_State_Release	1
+../Apps/Src/key.c:137:6:Key_ReadBtn1State	1
+../Apps/Src/key.c:144:13:Key_GetState	1

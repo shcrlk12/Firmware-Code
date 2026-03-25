@@ -1,0 +1,8 @@
+../Apps/Src/data_logger.c:39:6:DATALOG_Start	1
+../Apps/Src/data_logger.c:47:6:DATALOG_Sample	5
+../Apps/Src/data_logger.c:78:6:DATALOG_FillBufferWithZero	2
+../Apps/Src/data_logger.c:91:10:DATALOG_GetData	6
+../Apps/Src/data_logger.c:121:6:DATALOG_GetDataSet	1
+../Apps/Src/data_logger.c:131:6:DATALOG_InitExposureLog	1
+../Apps/Src/data_logger.c:142:6:DATALOG_ExposureLog	1
+../Apps/Src/data_logger.c:153:6:DATALOG_GetExpLogSet	1

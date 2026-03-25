@@ -1,0 +1,5 @@
+../Apps/Src/buzzer.c:13:6:BUZZER_TIMER_Interrupt_Handler	1
+../Apps/Src/buzzer.c:23:6:BUZZER_Set	1
+../Apps/Src/buzzer.c:37:6:BUZZER_Beep	1
+../Apps/Src/buzzer.c:45:6:BUZZER_Update	3
+../Apps/Src/buzzer.c:58:6:BUZZER_Initialize	1

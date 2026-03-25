@@ -1,0 +1,15 @@
+
+타입 snake_case_t
+typedef struct weray_params_t STRUCT_WERAY_PARAMS;
+
+전역변수 
+static weray_sys_settings_t s_settings;
+weray_sys_settings_t g_sys_settings;
+
+지역변수 lowerCamelCase
+
+함수이름 lowerCamelCase + 동사로 시작
+매크로 함수 UPPER_SNAKE_CASE
+Enum snake_case_t , 값 : UPPER_SNAKE_CASE
+
+파일이름 snake_case.c

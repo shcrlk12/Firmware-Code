@@ -1,0 +1,4 @@
+../Apps/States/Src/state_machine.c:5:13:SetMainState	16	static
+../Apps/States/Src/state_machine.c:10:17:GetMainState	4	static
+../Apps/States/Src/state_machine.c:15:13:SetSubState	16	static
+../Apps/States/Src/state_machine.c:21:17:GetSubState	4	static

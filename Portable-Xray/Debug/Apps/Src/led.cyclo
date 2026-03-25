@@ -1,0 +1,15 @@
+../Apps/Src/led.c:45:6:LED_Update	2
+../Apps/Src/led.c:70:6:LED_AllOff	1
+../Apps/Src/led.c:75:6:LED_AllOn	1
+../Apps/Src/led.c:80:6:LED_ErrorOn	1
+../Apps/Src/led.c:85:6:LED_ErrorOff	1
+../Apps/Src/led.c:90:6:LED_PowerOn	1
+../Apps/Src/led.c:95:6:LED_PowerOff	1
+../Apps/Src/led.c:100:6:LED_RecordOn	1
+../Apps/Src/led.c:105:6:LED_RecordOff	1
+../Apps/Src/led.c:110:6:LED_WaitOn	1
+../Apps/Src/led.c:115:6:LED_WaitOff	1
+../Apps/Src/led.c:120:6:LED_ReadyOn	1
+../Apps/Src/led.c:125:6:LED_ReadyOff	1
+../Apps/Src/led.c:130:6:LED_ExposureOn	1
+../Apps/Src/led.c:135:6:LED_ExposureOff	1

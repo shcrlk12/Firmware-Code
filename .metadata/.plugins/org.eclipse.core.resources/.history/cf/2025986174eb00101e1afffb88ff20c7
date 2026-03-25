@@ -1,0 +1,94 @@
+#include "pass_input_state.h"
+
+static uint8_t pass_selected_digit;
+static uint16_t pass_digit[3];
+
+main_state_t PassInputState_Loop()
+{
+    main_state_t nextMain = MAIN_STATE_PASS_INPUT;
+
+    sub_state_pass_input_t subState = GetSubState();
+    sub_state_pass_input_t nextSubState;
+
+	switch(subState)
+	{
+		case SUB_STATE_PASS_INPUT_INIT:
+			nextSubState = PassInputState_Init();
+			break;
+
+		case SUB_STATE_PASS_INPUT_PASS_WAIT:
+			nextSubState = PassInputState_Wait();
+			break;
+
+		case SUB_STATE_PASS_INPUT_PASS_CHECK:
+			nextSubState = PassInputState_PassCheck();
+			break;
+
+		case SUB_STATE_PASS_INPUT_PASS_SUCCESS:
+			SetSubState(SUB_STATE_STANDBY_INIT);
+			return MAIN_STATE_STANDBY;
+
+		default:
+	        nextSubState = SUB_STATE_PASS_INPUT_INIT;
+	        break;
+	}
+
+	if(nextSubState != subState)
+	{
+		SetSubState(nextSubState);
+	}
+
+	return nextMain;
+}
+
+
+sub_state_pass_input_t PassInputState_Init()
+{
+	pass_digit[2] = 0;
+	pass_digit[1] = 0;
+	pass_digit[0] = 0;
+	pass_selected_digit = 2;
+
+	return SUB_STATE_PASS_INPUT_PASS_CHECK;
+}
+
+sub_state_pass_input_t PassInputState_Wait()
+{
+
+}
+sub_state_pass_input_t PassInputState_PassCheck()
+{
+	/**
+	UNION_KEY_STATE key_state = KEY_GetKeyState();
+	if(key_state.ack == 0)
+	{
+		if(key_state.state == KEY_R_PRESS)
+		{
+			// right button: increase selected digit number
+			if(pass_digit[pass_selected_digit] == 9) pass_digit[pass_selected_digit] = 0;
+			else pass_digit[pass_selected_digit] = pass_digit[pass_selected_digit] + 1;
+		}
+		else if(key_state.state == KEY_L_PRESS)
+		{
+			// left button: decrease selected digit number
+			if(pass_digit[pass_selected_digit] == 0) pass_digit[pass_selected_digit] = 9;
+			else pass_digit[pass_selected_digit] = pass_digit[pass_selected_digit] - 1;
+		}
+		else if((key_state.set == 1) && (key_state.release == 1))
+		{
+			// set button: change digit (to left) and compare code
+			if(pass_selected_digit == 0) pass_selected_digit = 2;
+			else pass_selected_digit = pass_selected_digit - 1;
+			LCD_SetBlink(1 << pass_selected_digit);
+			uint16_t code = pass_digit[2] * 100 + pass_digit[1] * 10 + pass_digit[0];
+			if(code == weray.settings.passcode)
+			{
+				accu_system.flags.weray_passwd_input = true;
+			}
+		}
+	}
+	**/
+	//키값을 받아와서 digit 변경
+	return SUB_STATE_PASS_INPUT_PASS_SUCCESS;
+}
+

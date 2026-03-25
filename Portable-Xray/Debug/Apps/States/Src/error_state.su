@@ -1,0 +1,4 @@
+../Apps/States/Src/error_state.c:13:14:ErrorState_Loop	16	static
+../Apps/States/Src/error_state.c:51:19:ErrorState_Init	4	static
+../Apps/States/Src/error_state.c:56:19:ErrorState_Set_UI	4	static
+../Apps/States/Src/error_state.c:65:19:ErrorState_Wait	16	static

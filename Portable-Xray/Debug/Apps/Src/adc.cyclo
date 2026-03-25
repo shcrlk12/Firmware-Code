@@ -1,0 +1,8 @@
+../Apps/Src/adc.c:23:17:ADC_Get_VFB_GATE	1
+../Apps/Src/adc.c:28:17:ADC_Get_VFB_ACCU	1
+../Apps/Src/adc.c:33:17:ADC_Get_VFB_BUCK	1
+../Apps/Src/adc.c:38:17:ADC_Get_VFB_ANODE	1
+../Apps/Src/adc.c:43:17:ADC_Get_IFB_ACCU	1
+../Apps/Src/adc.c:48:17:ADC_Get_IFB_BUCK	1
+../Apps/Src/adc.c:53:17:ADC_Get_TEMP_MCU	1
+../Apps/Src/adc.c:58:17:ADC_Get_TEMP_SYS	1
