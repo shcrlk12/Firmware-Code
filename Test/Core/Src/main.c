@@ -41,6 +41,7 @@
 
 /* Private variables ---------------------------------------------------------*/
 ADC_HandleTypeDef hadc1;
+DMA_HandleTypeDef hdma_adc1;
 
 TIM_HandleTypeDef htim1;
 
@@ -51,6 +52,7 @@ TIM_HandleTypeDef htim1;
 /* Private function prototypes -----------------------------------------------*/
 void SystemClock_Config(void);
 static void MX_GPIO_Init(void);
+static void MX_DMA_Init(void);
 static void MX_TIM1_Init(void);
 static void MX_ADC1_Init(void);
 /* USER CODE BEGIN PFP */
@@ -59,7 +61,53 @@ static void MX_ADC1_Init(void);
 
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
+#define MAX_TURN_ON_TIME 20000L
+#define MIN_TURN_ON_TIME 1000L
+#define MAX_ADC_VALUE 4095
+#define MIN_ADC_VALUE 0
+
 volatile uint8_t buttonInputFlag = 0;
+volatile uint16_t adcValue = 0;
+
+uint32_t Convert_Adc_To_Time(uint32_t adcValue)
+{
+	if(adcValue > MAX_ADC_VALUE)
+		adcValue = MAX_ADC_VALUE;
+	if(adcValue < MIN_ADC_VALUE)
+		adcValue = MIN_ADC_VALUE;
+
+	return adcValue * MAX_TURN_ON_TIME / MAX_ADC_VALUE;
+}
+
+
+void Set_PWM_Duty(TIM_HandleTypeDef *htim, uint32_t channel, float duty_percent)
+{
+    uint32_t arr = __HAL_TIM_GET_AUTORELOAD(htim);
+    uint32_t ccr = (uint32_t)((arr + 1) * duty_percent / 100.0f);
+
+    if (ccr > arr) ccr = arr;
+    __HAL_TIM_SET_COMPARE(htim, channel, ccr);
+}
+
+void Start_Enter_Point()
+{
+	Set_PWM_Duty(&htim1, TIM_CHANNEL_3, 50);
+}
+
+void Stop_Enter_Point()
+{
+	Set_PWM_Duty(&htim1, TIM_CHANNEL_3, 0);
+}
+
+void Start_Feed(uint32_t period_ms)
+{
+	Start_Enter_Point();
+
+	HAL_Delay(period_ms);
+
+	Stop_Enter_Point();
+}
+
 void HAL_GPIO_EXTI_Callback(uint16_t GPIO_Pin)
 {
     if (GPIO_Pin == DI_FEED_SW_Pin)
@@ -98,10 +146,14 @@ int main(void)
 
   /* Initialize all configured peripherals */
   MX_GPIO_Init();
+  MX_DMA_Init();
   MX_TIM1_Init();
   MX_ADC1_Init();
   /* USER CODE BEGIN 2 */
   HAL_TIM_PWM_Start(&htim1, TIM_CHANNEL_3);
+
+  HAL_ADC_Start_DMA(&hadc1, (uint32_t *)&adcValue, 1);
+
   /* USER CODE END 2 */
 
   /* Infinite loop */
@@ -112,10 +164,17 @@ int main(void)
 
     /* USER CODE BEGIN 3 */
 	  HAL_GPIO_WritePin(DO_BLUE_LED_GPIO_Port, DO_BLUE_LED_Pin, GPIO_PIN_RESET);
-	  HAL_Delay(1000);
+	  HAL_Delay(300);
 	  HAL_GPIO_WritePin(DO_BLUE_LED_GPIO_Port, DO_BLUE_LED_Pin, GPIO_PIN_SET);
-	  HAL_Delay(1000);
+	  HAL_Delay(300);
 
+	  if(buttonInputFlag == 1)
+	  {
+		  buttonInputFlag = 0;
+
+		  uint32_t time = Convert_Adc_To_Time(adcValue);
+		  Start_Feed(time);
+	  }
   }
   /* USER CODE END 3 */
 }
@@ -185,7 +244,7 @@ static void MX_ADC1_Init(void)
   */
   hadc1.Instance = ADC1;
   hadc1.Init.ScanConvMode = ADC_SCAN_DISABLE;
-  hadc1.Init.ContinuousConvMode = DISABLE;
+  hadc1.Init.ContinuousConvMode = ENABLE;
   hadc1.Init.DiscontinuousConvMode = DISABLE;
   hadc1.Init.ExternalTrigConv = ADC_SOFTWARE_START;
   hadc1.Init.DataAlign = ADC_DATAALIGN_RIGHT;
@@ -199,7 +258,7 @@ static void MX_ADC1_Init(void)
   */
   sConfig.Channel = ADC_CHANNEL_0;
   sConfig.Rank = ADC_REGULAR_RANK_1;
-  sConfig.SamplingTime = ADC_SAMPLETIME_1CYCLE_5;
+  sConfig.SamplingTime = ADC_SAMPLETIME_239CYCLES_5;
   if (HAL_ADC_ConfigChannel(&hadc1, &sConfig) != HAL_OK)
   {
     Error_Handler();
@@ -247,7 +306,7 @@ static void MX_TIM1_Init(void)
     Error_Handler();
   }
   sConfigOC.OCMode = TIM_OCMODE_PWM1;
-  sConfigOC.Pulse = 500;
+  sConfigOC.Pulse = 0;
   sConfigOC.OCPolarity = TIM_OCPOLARITY_HIGH;
   sConfigOC.OCNPolarity = TIM_OCNPOLARITY_HIGH;
   sConfigOC.OCFastMode = TIM_OCFAST_DISABLE;
@@ -272,6 +331,22 @@ static void MX_TIM1_Init(void)
 
   /* USER CODE END TIM1_Init 2 */
   HAL_TIM_MspPostInit(&htim1);
+
+}
+
+/**
+  * Enable DMA controller clock
+  */
+static void MX_DMA_Init(void)
+{
+
+  /* DMA controller clock enable */
+  __HAL_RCC_DMA1_CLK_ENABLE();
+
+  /* DMA interrupt init */
+  /* DMA1_Channel1_IRQn interrupt configuration */
+  HAL_NVIC_SetPriority(DMA1_Channel1_IRQn, 0, 0);
+  HAL_NVIC_EnableIRQ(DMA1_Channel1_IRQn);
 
 }
 
