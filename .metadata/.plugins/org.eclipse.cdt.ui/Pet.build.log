@@ -1,24 +1,16 @@
-17:16:40 **** Incremental Build of configuration Debug for project Pet ****
+11:40:24 **** Incremental Build of configuration Debug for project Pet ****
 make -j20 all 
-arm-none-eabi-gcc "../Core/Src/main.c" -mcpu=cortex-m3 -std=gnu11 -g3 -DDEBUG -DUSE_HAL_DRIVER -DSTM32F103xB -c -I../Core/Inc -I../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I../Drivers/STM32F1xx_HAL_Driver/Inc -I../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I../Drivers/CMSIS/Include -O0 -ffunction-sections -fdata-sections -Wall -fstack-usage -fcyclomatic-complexity -MMD -MP -MF"Core/Src/main.d" -MT"Core/Src/main.o" --specs=nano.specs -mfloat-abi=soft -mthumb -o "Core/Src/main.o"
-../Core/Src/main.c: In function 'Start_Feed':
-../Core/Src/main.c:116:12: error: 'speed' undeclared (first use in this function)
-  116 |         if(speed > 100)
-      |            ^~~~~
-../Core/Src/main.c:116:12: note: each undeclared identifier is reported only once for each function it appears in
-../Core/Src/main.c: In function 'main':
-../Core/Src/main.c:177:29: warning: passing argument 2 of 'HAL_ADC_Start_DMA' discards 'volatile' qualifier from pointer target type [-Wdiscarded-qualifiers]
-  177 |   HAL_ADC_Start_DMA(&hadc1, &adcValue, 1);
-      |                             ^~~~~~~~~
-In file included from ../Core/Inc/stm32f1xx_hal_conf.h:274,
-                 from ../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal.h:29,
-                 from ../Core/Inc/main.h:30,
-                 from ../Core/Src/main.c:20:
-../Drivers/STM32F1xx_HAL_Driver/Inc/stm32f1xx_hal_adc.h:928:78: note: expected 'uint32_t *' {aka 'long unsigned int *'} but argument is of type 'volatile uint32_t *' {aka 'volatile long unsigned int *'}
-  928 | HAL_StatusTypeDef       HAL_ADC_Start_DMA(ADC_HandleTypeDef* hadc, uint32_t* pData, uint32_t Length);
-      |                                                                    ~~~~~~~~~~^~~~~
-make: *** [Core/Src/subdir.mk:34: Core/Src/main.o] Error 1
-"make -j20 all" terminated with exit code 2. Build might be incomplete.
+arm-none-eabi-gcc -o "Pet.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Test\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Pet.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: Pet.elf
+ 
+arm-none-eabi-size  Pet.elf 
+arm-none-eabi-objdump -h -S Pet.elf  > "Pet.list"
+   text	   data	    bss	    dec	    hex	filename
+  13024	     12	   1764	  14800	   39d0	Pet.elf
+Finished building: default.size.stdout
+ 
+Finished building: Pet.list
+ 
 
-17:16:41 Build Failed. 2 errors, 1 warnings. (took 532ms)
+11:40:25 Build Finished. 0 errors, 0 warnings. (took 967ms)
 

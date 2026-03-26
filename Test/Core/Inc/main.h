@@ -61,6 +61,14 @@ void Error_Handler(void);
 /* Private defines -----------------------------------------------------------*/
 #define DO_BLUE_LED_Pin GPIO_PIN_13
 #define DO_BLUE_LED_GPIO_Port GPIOC
+#define LSE_IN_Pin GPIO_PIN_14
+#define LSE_IN_GPIO_Port GPIOC
+#define LSE_OUT_Pin GPIO_PIN_15
+#define LSE_OUT_GPIO_Port GPIOC
+#define HSE_IN_Pin GPIO_PIN_0
+#define HSE_IN_GPIO_Port GPIOD
+#define HSE_OUT_Pin GPIO_PIN_1
+#define HSE_OUT_GPIO_Port GPIOD
 #define AI_FEED_TIME_Pin GPIO_PIN_0
 #define AI_FEED_TIME_GPIO_Port GPIOA
 #define DI_FEED_SW_Pin GPIO_PIN_10
