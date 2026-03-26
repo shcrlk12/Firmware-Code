@@ -1,16 +1,10 @@
-11:40:24 **** Incremental Build of configuration Debug for project Pet ****
+14:18:04 **** Incremental Build of configuration Debug for project Pet ****
 make -j20 all 
-arm-none-eabi-gcc -o "Pet.elf" @"objects.list"   -mcpu=cortex-m3 -T"C:\00.Work\01.Work\03.Dev\Picopack\STM32_Workspace\Test\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="Pet.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
-Finished building target: Pet.elf
- 
 arm-none-eabi-size  Pet.elf 
-arm-none-eabi-objdump -h -S Pet.elf  > "Pet.list"
    text	   data	    bss	    dec	    hex	filename
   13024	     12	   1764	  14800	   39d0	Pet.elf
 Finished building: default.size.stdout
  
-Finished building: Pet.list
- 
 
-11:40:25 Build Finished. 0 errors, 0 warnings. (took 967ms)
+14:18:04 Build Finished. 0 errors, 0 warnings. (took 435ms)
 

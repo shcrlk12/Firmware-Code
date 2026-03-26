@@ -2560,3 +2560,6 @@ java.lang.NullPointerException: Cannot invoke "org.eclipse.core.runtime.IPath.to
 
 !ENTRY org.eclipse.cdt.core 1 0 2026-03-26 11:34:28.087
 !MESSAGE Indexed 'Pet' (21 sources, 82 headers) in 1.35 sec: 5,212 declarations; 34,469 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.005%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2026-03-26 13:44:01.490
+!MESSAGE Indexed 'Training' (19 sources, 81 headers) in 8.04 sec: 4,288 declarations; 17,966 references; 0 unresolved inclusions; 1 syntax errors; 2 unresolved names (0.009%)
