@@ -7,3 +7,4 @@ org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HVPS-Control-UI/activeLaunchMod
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:HVPS-Control-UI/activeLaunchTarget=null\:---
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Pet\ Debug/activeLaunchMode=debug
 org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Training\ Debug/activeLaunchMode=debug
+org.eclipse.cdt.dsf.gdb.gdbRemotedescriptorType\:Training\ Debug/activeLaunchTarget=null\:---

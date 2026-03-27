@@ -1,4 +1,4 @@
-14:18:04 **** Incremental Build of configuration Debug for project Pet ****
+09:38:02 **** Build of configuration Debug for project Pet ****
 make -j20 all 
 arm-none-eabi-size  Pet.elf 
    text	   data	    bss	    dec	    hex	filename
@@ -6,5 +6,5 @@ arm-none-eabi-size  Pet.elf
 Finished building: default.size.stdout
  
 
-14:18:04 Build Finished. 0 errors, 0 warnings. (took 435ms)
+09:38:02 Build Finished. 0 errors, 0 warnings. (took 397ms)
 
